@@ -2,7 +2,7 @@ server:
   servlet:
     context-path: /api
 spring:
-  application.name: issues-logging
+  application.name: web_app
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
